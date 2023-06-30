@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B0FF912A4F339D0034541D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FF902A4F339D0034541D /* AppDelegate.swift */; };
+		84B0FF932A4F339D0034541D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FF922A4F339D0034541D /* SceneDelegate.swift */; };
+		84B0FF9A2A4F339E0034541D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B0FF992A4F339E0034541D /* Assets.xcassets */; };
+		84B0FF9D2A4F339E0034541D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B0FF9B2A4F339E0034541D /* LaunchScreen.storyboard */; };
+		84B0FFA52A4F33B40034541D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFA42A4F33B40034541D /* Constants.swift */; };
+		84B0FFB22A4F33C30034541D /* LocationDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFA72A4F33C30034541D /* LocationDataViewModel.swift */; };
+		84B0FFB32A4F33C30034541D /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFA82A4F33C30034541D /* RouteViewModel.swift */; };
+		84B0FFB42A4F33C30034541D /* LocationDataGistApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFAA2A4F33C30034541D /* LocationDataGistApi.swift */; };
+		84B0FFB52A4F33C30034541D /* RouteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFAB2A4F33C30034541D /* RouteApi.swift */; };
+		84B0FFB62A4F33C30034541D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFAD2A4F33C30034541D /* HomeViewController.swift */; };
+		84B0FFB72A4F33C30034541D /* NetworkPluginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFAF2A4F33C30034541D /* NetworkPluginHelper.swift */; };
+		84B0FFB82A4F33C30034541D /* MapViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFB02A4F33C30034541D /* MapViewHelper.swift */; };
+		84B0FFB92A4F33C30034541D /* CustomViewObjectsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0FFB12A4F33C30034541D /* CustomViewObjectsHelper.swift */; };
+		84B0FFBB2A4F33D20034541D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B0FFBA2A4F33D20034541D /* Main.storyboard */; };
+		F1A904CF29559A56557A9788 /* Pods_MapCarAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2275FC648C0A48FF223EEEE /* Pods_MapCarAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84B0FF8D2A4F339D0034541D /* MapCarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapCarAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B0FF902A4F339D0034541D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84B0FF922A4F339D0034541D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84B0FF992A4F339E0034541D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B0FF9C2A4F339E0034541D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B0FF9E2A4F339E0034541D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B0FFA42A4F33B40034541D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84B0FFA72A4F33C30034541D /* LocationDataViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDataViewModel.swift; sourceTree = "<group>"; };
+		84B0FFA82A4F33C30034541D /* RouteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
+		84B0FFAA2A4F33C30034541D /* LocationDataGistApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDataGistApi.swift; sourceTree = "<group>"; };
+		84B0FFAB2A4F33C30034541D /* RouteApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteApi.swift; sourceTree = "<group>"; };
+		84B0FFAD2A4F33C30034541D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84B0FFAF2A4F33C30034541D /* NetworkPluginHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkPluginHelper.swift; sourceTree = "<group>"; };
+		84B0FFB02A4F33C30034541D /* MapViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewHelper.swift; sourceTree = "<group>"; };
+		84B0FFB12A4F33C30034541D /* CustomViewObjectsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewObjectsHelper.swift; sourceTree = "<group>"; };
+		84B0FFBA2A4F33D20034541D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A2275FC648C0A48FF223EEEE /* Pods_MapCarAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapCarAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC9020300C411693C68B774 /* Pods-MapCarAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCarAnimation.release.xcconfig"; path = "Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		F76741E55A81F42FEA2E6938 /* Pods-MapCarAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCarAnimation.debug.xcconfig"; path = "Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B0FF8A2A4F339D0034541D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A904CF29559A56557A9788 /* Pods_MapCarAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3349CC444AF53A8C32ACF987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F76741E55A81F42FEA2E6938 /* Pods-MapCarAnimation.debug.xcconfig */,
+				CAC9020300C411693C68B774 /* Pods-MapCarAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84B0FF842A4F339D0034541D = {
+			isa = PBXGroup;
+			children = (
+				84B0FF8F2A4F339D0034541D /* MapCarAnimation */,
+				84B0FF8E2A4F339D0034541D /* Products */,
+				3349CC444AF53A8C32ACF987 /* Pods */,
+				F7CBB655C7974E8BD5137C06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B0FF8E2A4F339D0034541D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B0FF8D2A4F339D0034541D /* MapCarAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B0FF8F2A4F339D0034541D /* MapCarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				84B0FFA42A4F33B40034541D /* Constants.swift */,
+				84B0FFAC2A4F33C30034541D /* Controllers */,
+				84B0FFAE2A4F33C30034541D /* Helpers */,
+				84B0FFA92A4F33C30034541D /* Network Providers */,
+				84B0FFA62A4F33C30034541D /* ViewModel */,
+				84B0FF902A4F339D0034541D /* AppDelegate.swift */,
+				84B0FFBA2A4F33D20034541D /* Main.storyboard */,
+				84B0FF922A4F339D0034541D /* SceneDelegate.swift */,
+				84B0FF992A4F339E0034541D /* Assets.xcassets */,
+				84B0FF9B2A4F339E0034541D /* LaunchScreen.storyboard */,
+				84B0FF9E2A4F339E0034541D /* Info.plist */,
+			);
+			path = MapCarAnimation;
+			sourceTree = "<group>";
+		};
+		84B0FFA62A4F33C30034541D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84B0FFA72A4F33C30034541D /* LocationDataViewModel.swift */,
+				84B0FFA82A4F33C30034541D /* RouteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84B0FFA92A4F33C30034541D /* Network Providers */ = {
+			isa = PBXGroup;
+			children = (
+				84B0FFAA2A4F33C30034541D /* LocationDataGistApi.swift */,
+				84B0FFAB2A4F33C30034541D /* RouteApi.swift */,
+			);
+			path = "Network Providers";
+			sourceTree = "<group>";
+		};
+		84B0FFAC2A4F33C30034541D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84B0FFAD2A4F33C30034541D /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84B0FFAE2A4F33C30034541D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84B0FFAF2A4F33C30034541D /* NetworkPluginHelper.swift */,
+				84B0FFB02A4F33C30034541D /* MapViewHelper.swift */,
+				84B0FFB12A4F33C30034541D /* CustomViewObjectsHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F7CBB655C7974E8BD5137C06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2275FC648C0A48FF223EEEE /* Pods_MapCarAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B0FF8C2A4F339D0034541D /* MapCarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B0FFA12A4F339E0034541D /* Build configuration list for PBXNativeTarget "MapCarAnimation" */;
+			buildPhases = (
+				077CC674DA907214F492988A /* [CP] Check Pods Manifest.lock */,
+				84B0FF892A4F339D0034541D /* Sources */,
+				84B0FF8A2A4F339D0034541D /* Frameworks */,
+				84B0FF8B2A4F339D0034541D /* Resources */,
+				4C81574507E9B27927566A70 /* [CP] Embed Pods Frameworks */,
+				7E08237C8709EFE9980956FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapCarAnimation;
+			productName = MapCarAnimation;
+			productReference = 84B0FF8D2A4F339D0034541D /* MapCarAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B0FF852A4F339D0034541D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84B0FF8C2A4F339D0034541D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 84B0FF882A4F339D0034541D /* Build configuration list for PBXProject "MapCarAnimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B0FF842A4F339D0034541D;
+			productRefGroup = 84B0FF8E2A4F339D0034541D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B0FF8C2A4F339D0034541D /* MapCarAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B0FF8B2A4F339D0034541D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B0FFBB2A4F33D20034541D /* Main.storyboard in Resources */,
+				84B0FF9D2A4F339E0034541D /* LaunchScreen.storyboard in Resources */,
+				84B0FF9A2A4F339E0034541D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		077CC674DA907214F492988A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapCarAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C81574507E9B27927566A70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E08237C8709EFE9980956FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapCarAnimation/Pods-MapCarAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B0FF892A4F339D0034541D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B0FFB32A4F33C30034541D /* RouteViewModel.swift in Sources */,
+				84B0FFB72A4F33C30034541D /* NetworkPluginHelper.swift in Sources */,
+				84B0FFB22A4F33C30034541D /* LocationDataViewModel.swift in Sources */,
+				84B0FFB52A4F33C30034541D /* RouteApi.swift in Sources */,
+				84B0FFB92A4F33C30034541D /* CustomViewObjectsHelper.swift in Sources */,
+				84B0FFB82A4F33C30034541D /* MapViewHelper.swift in Sources */,
+				84B0FF912A4F339D0034541D /* AppDelegate.swift in Sources */,
+				84B0FFB62A4F33C30034541D /* HomeViewController.swift in Sources */,
+				84B0FFB42A4F33C30034541D /* LocationDataGistApi.swift in Sources */,
+				84B0FF932A4F339D0034541D /* SceneDelegate.swift in Sources */,
+				84B0FFA52A4F33B40034541D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84B0FF9B2A4F339E0034541D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B0FF9C2A4F339E0034541D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B0FF9F2A4F339E0034541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B0FFA02A4F339E0034541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B0FFA22A4F339E0034541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76741E55A81F42FEA2E6938 /* Pods-MapCarAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapCarAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagan.MapCarAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B0FFA32A4F339E0034541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC9020300C411693C68B774 /* Pods-MapCarAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapCarAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagan.MapCarAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B0FF882A4F339D0034541D /* Build configuration list for PBXProject "MapCarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B0FF9F2A4F339E0034541D /* Debug */,
+				84B0FFA02A4F339E0034541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B0FFA12A4F339E0034541D /* Build configuration list for PBXNativeTarget "MapCarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B0FFA22A4F339E0034541D /* Debug */,
+				84B0FFA32A4F339E0034541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B0FF852A4F339D0034541D /* Project object */;
+}
