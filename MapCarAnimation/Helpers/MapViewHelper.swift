@@ -113,6 +113,11 @@ class MapViewHelper {
 }
 
 private extension MapViewHelper {
+    /**
+     *  You need to pass the created/updating marker, old & new coordinate, mapView and bearing value from backend
+     *  to turn properly. Here coordinates json files is used without new bearing value. So that
+     *  bearing won't work as expected.
+     */
     class func movement(marker: GMSMarker, oldCoordinate: CLLocationCoordinate2D, newCoordinate: CLLocationCoordinate2D, mapView: GMSMapView, bearing: Float = 0) {
        // calculate the bearing value from old and new coordinates
        let calBearing = GMSGeometryHeading(oldCoordinate, newCoordinate)
@@ -200,7 +205,7 @@ private extension MapViewHelper {
                 print("WayPoint occured in path")
             }
             
-            movement(marker: marker, oldCoordinate: previousCordinate, newCoordinate: nextCordinate, mapView: mapView)
+            movement(marker: marker, oldCoordinate: previousCordinate, newCoordinate: nextCordinate, mapView: mapView, bearing: 0)
             
             DispatchQueue.main.asyncAfter(deadline: .now() + timer , execute: {
                 self.animateMarkerToNextCordinate(marker: marker, mapView: mapView)
