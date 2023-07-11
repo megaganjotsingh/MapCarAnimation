@@ -44,7 +44,6 @@ class CustomViewObjectsHelper: NSObject {
     ///
     /// - Parameter view: view on which activity indicator to be shown
     class func showActivityView(OnView view: UIView) {
-        
         // Reset previous activity view
         activityView?.superview?.isUserInteractionEnabled = true
         
@@ -69,7 +68,6 @@ class CustomViewObjectsHelper: NSObject {
         //myActivityIndicator.stopAnimating()
         
         view.addSubview(activityView!)
-        
         view.isUserInteractionEnabled = false
     }
     
@@ -77,7 +75,6 @@ class CustomViewObjectsHelper: NSObject {
     ///
     /// - Parameter view: View on which activity indicator to be hidden
     class func hideActivityView(onView view: UIView) {
-        
         // Call stopAnimating() when need to stop activity indicator
         //myActivityIndicator.stopAnimating()
         activityView?.stopAnimating()
