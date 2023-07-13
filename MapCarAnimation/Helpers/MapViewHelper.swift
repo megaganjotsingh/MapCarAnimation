@@ -35,7 +35,6 @@ struct MapViewProperties {
 }
 
 class MapViewHelper {
-    
     static var properties = MapViewProperties()
     
     static var wayPointsMarkers = [GMSMarker]()
@@ -95,9 +94,7 @@ class MapViewHelper {
     ///   - markerPosition: marker's position
     ///   - mapView: map on which marker will be shown
     class func moveMarkerOnPath(_ path: GMSPath?, markerPosition: CLLocationCoordinate2D, mapView: GMSMapView, markerImage: UIImage) {
-        guard path != nil else {
-            return
-        }
+        guard path != nil else { return }
         let marker = GMSMarker()
         marker.icon = markerImage
         marker.appearAnimation = .pop
