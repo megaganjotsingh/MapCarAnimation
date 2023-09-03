@@ -36,7 +36,6 @@ struct MapViewProperties {
 
 class MapViewHelper {
     static var properties = MapViewProperties()
-    
     static var wayPointsMarkers = [GMSMarker]()
 
     /// Creates map view
@@ -54,7 +53,6 @@ class MapViewHelper {
     ///   - mapView: map on which marker will be shown
     ///   - placeMarksArray: place marks
     class func createPolylineOnMap(mapView: GMSMapView, placeMarksArray: [PlaceMark], polyline: GMSPolyline) {
- 
         // Creates a marker in the center of the map.
         guard let startPlaceMark = placeMarksArray.first, startPlaceMark.placeLatitude != nil, startPlaceMark.placeLongitude != nil else {
             print("startPlacemark lat or long is nil")
@@ -214,7 +212,7 @@ private extension MapViewHelper {
     ///
     /// - Parameter marker: marker moving
     /// - Returns: status true or false
-    class func isMarkerPostionEqualToWaypointPosition(marker: GMSMarker) -> Bool{
+    class func isMarkerPostionEqualToWaypointPosition(marker: GMSMarker) -> Bool {
         let markerLatitude = String(format: "%.1f", marker.position.latitude)
         let markerLongitude = String(format: "%.1f", marker.position.longitude)
         let filteredMarkerArray = wayPointsMarkers.filter { waypoint -> Bool in
