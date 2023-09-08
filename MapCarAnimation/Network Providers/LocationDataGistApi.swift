@@ -24,7 +24,9 @@ extension LocationData: TargetType {
     }
     
     /// Base url/host
-    public var baseURL: URL { return URL(string: kGistHost)! }
+    public var baseURL: URL { 
+        return URL(string: kGistHost)! 
+    }
     
     /// path to be appended to base url
     public var path: String {
@@ -35,7 +37,6 @@ extension LocationData: TargetType {
     public var method: Moya.Method {
         return .get
     }
-
     
     /// type of request
     public var task: Task {
