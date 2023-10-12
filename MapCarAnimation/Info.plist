@@ -4,6 +4,10 @@
 <dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>To draw path</string>
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>To draw path</string>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 		<key>UISceneConfigurations</key>
