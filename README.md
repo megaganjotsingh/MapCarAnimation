@@ -1,6 +1,6 @@
 # MapCarAnimation
 
-This app is for demoing animating the car like uber from one position to another with preserving angle and smooth animation
+Maving Car animation on polyline like uber from one location to another location with heading to the car direction and smooth animation
 
 # Requirements
 - Xcode 14+
